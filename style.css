@@ -1,5 +1,177 @@
 /*Heather Truong INFO202*/
 
+/*button styling*/
+
+.hide-es {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  background-color: #9bc19b; 
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hide-es:hover {
+  background-color: #17283d;
+}
+
+.hideff {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  background-color: #9bc19b; 
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hideff:hover {
+  background-color: #17283d;
+}
+
+.hidecobra {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  background-color: #9bc19b; 
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hidecobra:hover {
+  background-color: #17283d;
+}
+
+.fadebutton {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  background-color: #9bc19b; 
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.fadebutton:hover {
+  background-color: #17283d;
+}
+
+.hidecancan {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  background-color: #9bc19b; 
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hidecancan:hover {
+  background-color: #17283d; 
+}
+
+.prevarrow {
+  float: left;
+  border: none;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 35%;
+  height: 35%;
+}
+
+.nextarrow{
+  float: right;
+  border: none;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 35%;
+  height: 35%;
+}
+
+.nextbutton{
+  float: right;
+  margin-top: 30px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  background-color: #9bc19b; 
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.nextbutton:hover {
+  background-color: #17283d; 
+}
+
+.prevbutton{
+  float: left;
+  margin-top: 30px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  background-color: #9bc19b; 
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.prevbutton:hover {
+  background-color: #17283d; 
+}
+
+
+.panel, .flip {
+  padding: 5px;
+  text-align: center;
+  color: #17283d;
+  background-color: #9bc19b;
+  border: solid 1px #17283d;
+}
+
+.panel {
+  padding: 50px;
+  display: none;
+}
+
+fieldset {
+  width: 75%;
+}
+
 .container {
   position: relative;
   max-width: 800px; /* Maximum width */
@@ -16,6 +188,8 @@
   padding: 20px; /* Some padding */
 }
 
+
+/*Relative link properties*/
 a {
   text-decoration: none;
   color:#17283d;
@@ -41,6 +215,7 @@ h4 {
   margin-right: 20px;
 }
 
+/*resizing cobra cabana pictures*/
 .cc2 {
   width: 500px;
   height: 350px;
@@ -63,6 +238,20 @@ h4 {
   padding: 10px;
 }
 
+/*resizing fighting fish pictures*/
+.ff1 {
+  width: 500px;
+  height: 350px;
+  margin-left: 20px;
+  float:right;
+}
+
+.ff2 {
+  width: 650px;
+  height: 550px;
+  padding-top: 100px;
+}
+
 .fighting {
   width: 410px;
   height: 300px;
@@ -71,6 +260,98 @@ h4 {
   padding: 10px;
 }
 
+/*resizing can can's pictures*/
+.cancan {
+  width: 410px;
+  height: 300px;
+  float: left;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.cancan1 {
+  width: 500px;
+  height: 350px;
+  margin-left: 20px;
+  float:right;
+  padding-bottom: 20px;
+}
+
+.cancan2 {
+  width: 650px;
+  height: 550px;
+  padding-top: 100px;
+}
+
+.cancan3 {
+  width: 650px;
+  height: 550px;
+  float: right;
+  padding-top: 100px;
+}
+
+/*responsive gallery styling*/
+.gallery {
+  border: 1px solid #ccc;
+}
+
+.gallery:hover {
+  color: #9bc19b; 
+  border: 1px solid #9bc19b;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*resizing edo's squid pictures*/
+.es1 {
+  width: 500px;
+  height: 350px;
+  margin-left: 20px;
+  float:right;
+}
+
+.es2 {
+  width: 650px;
+  height: 550px;
+  padding-top: 100px;
+}
 .edos {
   width: 410px;
   height: 300px;
@@ -83,6 +364,43 @@ header {
   background-color: #9bc19b; fill-opacity: 0.5;
   padding: 10px;
   color: white; 
+}
+
+/*Navigation Menu and Sub Navigation Menu Styling*/
+
+/* Style the subnav content*/
+.subnav-content {
+  display: none;
+  left: 1;
+  background-color:#9bc19b;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+
+/* Add a navy background color on hover */
+.subnav-content a:hover {
+  background-color: #17283d;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+
+.subnav {
+  background-color: #9bc19b;
+  font-size: 20px;
 }
 
 .navMenu {
@@ -108,13 +426,6 @@ header {
 body {
   background-color: rgb(255, 255, 255);
   color: white;
-
-
-  /*Border*/
-  /*border-style: dotted;
-  border-width: thick;
-  border-color: white;*/
-
 }
 
 .column {
@@ -160,6 +471,7 @@ li a:hover {
   color: white;
 }
 
+/*card properties for about us page*/
 .card{
   border: 2px solid #9bc19b;
   border-radius: 10px;

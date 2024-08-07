@@ -1,0 +1,142 @@
+<!--Heather Truong INFO202-->
+<!--Fighting Fish page-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport"content="width=device-width,initial-scale=1.0">
+	<title>RVA Munchies</title>
+
+	<!--Favicon-->
+	<link rel="icon" type="image/png" sizes="32x32" href="logo.png">
+
+	<!--External CSS file-->
+	<link rel="stylesheet" href="style.css">
+
+	<!--Embedded (internal) style that will override font to be darkslategray-->
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			color: darkslategray;
+		}
+		table, th, td {
+			border: 1px solid black;
+		}
+	</style>
+</head>
+
+<!--Inline style to override the font color to navy blue-->
+<body style="color: #17283d;">
+
+	<link rel="stylesheet" href="style.css">
+	
+	<center>
+	
+	<header>
+		<a href="index.html">
+		<img class="logo"src="RVA Munchies.png"alt="RVA Munchies logo"></img>
+		</a>
+	</header>
+
+	</center>
+
+	<!--Two Unequal Column Layout-->
+	<div class ="row">
+		<div class="column left">
+
+			<!--Navigation Menu-->
+			<h2 class="navMenu">Navigation Menu</h2>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+
+				<!--Sub Nav Menu-->
+				<div class="subnav">
+					<li class="subnavbtn">
+						<a href="index.html">Restaurants
+							<i class ="fa fa-caret-down"></i>
+						</a>
+					</li>
+					<div class="subnav-content">
+					  <a href="cobracabana.html">Cobra Cabana</a>
+					  <a href="fightingfish.html">Fighting Fish</a>
+					  <a href="can-can.html">Can Can Brasserie</a>
+					  <a href="edos-squid.html">Edo's Squid</a>
+					</div>
+				  </div>
+
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+
+			<br>
+			<br>
+			<br>
+
+			<!--Form for sending a recommendation-->
+			<form method="get">
+				<fieldset>
+					<legend>Send a Recommendation</legend>
+					Restaurant Name: <input type="text" name="email" id="email" >
+					<br>
+					<br>
+					<div class="form-group">
+						<label for="restaurant-type">Restaurant Type:</label>
+						<select id="restaurant-type" name="restaurant-type">
+							<option value="general">Casual</option>
+							<option value="feedback">Fine Dining</option>
+							<option value="support">Other</option>
+						</select>
+					</div>
+					<br>
+					<br>
+					<div class="form-group">
+						<label for="message">Message:</label>
+						<textarea id="message" name="message" rows="4" required></textarea>
+					</div>
+					<br>
+					<br>
+					<input type="submit" value="Submit"> <input type="reset">
+				</fieldset>
+			</form>
+
+		</div>
+		<div class="column right">
+			<h1>Fighting Fish</h1>
+            <h3>912 N Arthur Ashe Blvd</h3>
+
+            <!--Food image with description-->
+            <img class="ff1"src="ff1.jpg"alt="Sushi"></img>
+            <p>Fighting Fish is a sushi restaurant in Scott’s Addition on N Arthur Ashe. I highly recommend this place for happy hour which is from 5-6pm everyday! $5 dollar rolls and drafts. I’m a sucker for salmon so I am always getting the salmon avocado rolls and it is perfect every time. Not only is it a steal but the sushi is the best I’ve had so far. It’s fresh and the pieces of fish are thick. Top it off with $1 freshly shucked oysters and it’s easy to see why this is one of the best values in Scott’s Addition. The dinner menu is amazing as well with sashimi dishes and incredible specialty rolls.
+			</p>
+
+            <!--clear float-->
+			<div style="clear: both;"></div>
+
+            <!--Interior of Fighting Fish image-->
+            <img class="ff2"src="ff2.jpg"alt="Restaurant Interior of Fighting Fish"></img>
+
+			<!--clear float-->
+			<div style="clear: both;"></div>
+
+			<!--next button-->
+			<a href="can-can.html">
+				<img class="nextarrow"src="nextarrow.jpg"></img>
+			</a>
+
+			<!--prev button-->
+			<a href="fightingfish.html">
+				<img class="prevarrow"src="prevarrow.jpg"></img><br><br>
+			</a>
+
+		</div>
+	</div>
+
+    <foot>
+		<img class="FooterLogo" src="RVA Munchies 2.png"alt="RVA Munchies logo"></img>
+		<h4>Copyright © 2024 RVA Munchies. All rights reserved.</h4>
+	</foot>
+
+</body>
+</html>

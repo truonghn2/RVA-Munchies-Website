@@ -1,4 +1,5 @@
 <!--Heather Truong INFO202-->
+<!--Contact page-->
 
 <!DOCTYPE html>
 <html>
@@ -28,7 +29,7 @@
 	</style>
 </head>
 
-<!--Inline style to override the font color to pink-->
+<!--Inline style to override the font color to navy blue-->
 <body style="color: #17283d;">
 
 	<link rel="stylesheet" href="style.css">
@@ -46,12 +47,62 @@
 	<!--Two Unequal Column Layout-->
 	<div class ="row">
 		<div class="column left">
+
+			<!--Navigation Menu-->
 			<h2 class="navMenu">Navigation Menu</h2>
 			<ul>
 				<li><a href="index.html">Home</a></li>
+				
+				<!--Sub Nav Menu-->
+				<div class="subnav">
+					<li class="subnavbtn">
+						<a href="index.html">Restaurants
+							<i class ="fa fa-caret-down"></i>
+						</a>
+					</li>
+					<div class="subnav-content">
+					  <a href="cobracabana.html">Cobra Cabana</a>
+					  <a href="fightingfish.html">Fighting Fish</a>
+					  <a href="can-can.html">Can Can Brasserie</a>
+					  <a href="edos-squid.html">Edo's Squid</a>
+					</div>
+				  </div>
+
 				<li><a href="about.html">About Us</a></li>
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
+
+			<br>
+			<br>
+			<br>
+
+			<!--Form for sending a recommendation-->
+			<form method="get">
+				<fieldset>
+					<legend>Send a Recommendation</legend>
+					Restaurant Name: <input type="text" name="email" id="email" >
+					<br>
+					<br>
+					<div class="form-group">
+						<label for="restaurant-type">Restaurant Type:</label>
+						<select id="restaurant-type" name="restaurant-type">
+							<option value="general">Casual</option>
+							<option value="feedback">Fine Dining</option>
+							<option value="support">Other</option>
+						</select>
+					</div>
+					<br>
+					<br>
+					<div class="form-group">
+						<label for="message">Message:</label>
+						<textarea id="message" name="message" rows="4" required></textarea>
+					</div>
+					<br>
+					<br>
+					<input type="submit" value="Submit"> <input type="reset">
+				</fieldset>
+			</form>
+
 		</div>
 		<div class="column right">
             <div class="container">
